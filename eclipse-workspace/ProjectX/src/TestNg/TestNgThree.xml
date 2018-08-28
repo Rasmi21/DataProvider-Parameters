@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoanOne">
+<parameter name="URL" value="This the website"/>
+<parameter name="Username" value="ARasmi"/>
+<parameter name="Password" value="12345"/>
+  <test  name="Personal Loan">
+<classes>
+<class name="TestNg.DayOne"/>
+<class name="TestNg.DayTwo"/>
+<class name="TestNg.DayFour"/>
+<class name= "TestNg.DayThree"/>
+</classes>
+  </test> 
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoanOne]">
+  <parameter name="URl" value="This the website"/>
+  <test thread-count="5" name="Personal Loan(failed)">
+    <classes>
+      <class name="TestNg.DayThree">
+        <methods>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="webLoginhomeLoan"/>
+          <include name="BM"/>
+          <include name="BC"/>
+        </methods>
+      </class> <!-- TestNg.DayThree -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [LoanOne] -->

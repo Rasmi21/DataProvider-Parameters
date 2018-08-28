@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18480" started-at="2018-08-28T18:09:11Z" finished-at="2018-08-28T18:09:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18480" started-at="2018-08-28T18:09:11Z" finished-at="2018-08-28T18:09:30Z">
+      <class name="OrangeHRM.BaseClass">
+        <test-method status="PASS" signature="One(java.lang.String, java.lang.String)[pri:0, instance:OrangeHRM.BaseClass@30a3107a]" name="One" duration-ms="7584" started-at="2018-08-28T18:09:11Z" data-provider="Three" finished-at="2018-08-28T18:09:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One -->
+        <test-method status="PASS" signature="One(java.lang.String, java.lang.String)[pri:0, instance:OrangeHRM.BaseClass@30a3107a]" name="One" duration-ms="5370" started-at="2018-08-28T18:09:19Z" data-provider="Three" finished-at="2018-08-28T18:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One -->
+        <test-method status="PASS" signature="One(java.lang.String, java.lang.String)[pri:0, instance:OrangeHRM.BaseClass@30a3107a]" name="One" duration-ms="5490" started-at="2018-08-28T18:09:24Z" data-provider="Three" finished-at="2018-08-28T18:09:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One -->
+        <test-method status="PASS" signature="Two()[pri:2, instance:OrangeHRM.BaseClass@30a3107a]" name="Two" duration-ms="1" started-at="2018-08-28T18:09:30Z" finished-at="2018-08-28T18:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Two -->
+      </class> <!-- OrangeHRM.BaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
